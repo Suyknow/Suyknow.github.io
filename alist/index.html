@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta id="mymeta" />
+    <title>Alist</title>
+</head>
+<body style="margin:0; padding:0; height:100vh; overflow:hidden;">
+    <iframe id="iframe" name="iframe"
+        style="width:100%; height:100vh; border:none; display:block; background-color:#ffffff00;"
+        src="https://router.suy.me:5243/" allow="fullscreen"></iframe>
+    <script type="text/javascript">
+        var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+        var browser = navigator.userAgent.toLowerCase();
+        var isMobile = false; 
+        for (var i = 0; i < mobileAgent.length; i++) { 
+            if (browser.indexOf(mobileAgent[i]) !== -1) { 
+                isMobile = true; 
+                mymeta.name = "viewport"; 
+                mymeta.content = "width=device-width, initial-scale=1, maximum-scale=1"; 
+                break 
+            } 
+        };
+    </script>
+</body>
+</html>
