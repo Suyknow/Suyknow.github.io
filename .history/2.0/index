@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Suy.me</title>
+    <meta name="description" content="Personal Site of Suy" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="ROBOTS" content="INDEX,FOLLOW">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,800' rel='stylesheet' type='text/css'>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setCookieDomain", "*.suy.me"]);
+      _paq.push(["setDomains", ["suy.me","blog.suy.me","suyknow.github.io","xuyan.me"]]);
+      _paq.push(["enableCrossDomainLinking"]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function () {
+          var u = "https://router.suy.me:7643/";
+          _paq.push(['setTrackerUrl', u + 'js/']);
+          _paq.push(['setSiteId', '1']);
+          var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+          g.async = true; g.src = u + 'js/'; s.parentNode.insertBefore(g, s);
+      })();
+      </script>
+      <!-- End Matomo Code -->
+      <!-- Matomo Image Tracker-->
+      <noscript>
+          <img referrerpolicy="no-referrer-when-downgrade" src="https://router.suy.me:7643/js/?idsite=1&rec=1&action_name=1&url=1&_id=1&rand=1" style="border:0" alt="" />
+      </noscript>
+      <!-- End Matomo -->
+  </head>
+  <body lang="en">
+    <div id="wrapper">
+        <section id="head">
+          <!-- Header -->
+          <header>
+            <div id="head-container">
+              <!-- Description -->
+              <div id="description">
+                <h3>Personal Site of Suy</h3>
+              </div>
+            </div>
+          </header>
+        </section>
+        <section>
+            <!-- Index article -->
+            <article class="index">
+            <div class="content">
+              <div class="title">
+                  <!-- Date -->
+                  <div class="date">指尖光影 落笔停云<br/>—</div>
+                <!-- Post Title -->
+                <h3>To Begin With</h3>
+              </div>
+              <div id="body" align="center">
+                  <h1><a href="https://blog.suy.me/album"> Album</a> <span style="font-size: 18px;">·</span><a href="https://blog.suy.me/"> Blog</a></h1>
+                  <!-- <a href="https://suy.me/">About Me</a> -->
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- Footer -->
+        <section id="foot">
+          <footer>
+            <p>© <strong><a href="http://suy.me">XuYan</a></strong>    —    Powered by <a href="https://www.farbox.org" target="_blank">FarBox</a></p>
+          </footer>
+        </section>
+    </div>
+  </body>
+</html>
