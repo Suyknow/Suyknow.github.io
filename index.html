@@ -18,24 +18,20 @@
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
       _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
       _paq.push(["setCookieDomain", "*.suy.me"]);
-      _paq.push(["setDomains", ["suy.me","blog.suy.me","suyknow.github.io","xuyan.me"]]);
+      _paq.push(["setDomains", ["*.suy.me","*.blog.suy.me","*.suyknow.github.io","*.xuyan.me"]]);
       _paq.push(["enableCrossDomainLinking"]);
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
-      (function () {
-          var u = "https://router.suy.me:7643/";
-          _paq.push(['setTrackerUrl', u + 'js/']);
-          _paq.push(['setSiteId', '1']);
-          var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-          g.async = true; g.src = u + 'js/'; s.parentNode.insertBefore(g, s);
+      (function() {
+        var u="//router.suy.me:7643/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
       })();
-      </script>
-      <!-- End Matomo Code -->
-      <!-- Matomo Image Tracker-->
-      <noscript>
-          <img referrerpolicy="no-referrer-when-downgrade" src="https://router.suy.me:7643/js/?idsite=1&rec=1&action_name=1&url=1&_id=1&rand=1" style="border:0" alt="" />
-      </noscript>
-      <!-- End Matomo -->
+    </script>
+    <noscript><p><img referrerpolicy="no-referrer-when-downgrade" src="//router.suy.me:7643/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
   </head>
   <body lang="en">
     <div id="wrapper">
